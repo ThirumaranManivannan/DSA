@@ -13,3 +13,7 @@ def merge(arr, left, rigt):
 			arr[actual_idx] = rigt[right_idx]
 			right_idx += 1
 			actual_idx += 1
+	while left_idx < left:
+		arr[actual_idx] = left[left_idx]
+		actual_idx += 1
+		left_idx += 1
