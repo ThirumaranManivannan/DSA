@@ -17,3 +17,4 @@ def merge(arr, left, rigt):
 		arr[actual_idx] = left[left_idx]
 		actual_idx += 1
 		left_idx += 1
+		
